@@ -1,0 +1,21 @@
+
+.answer {
+	display: none;
+}
+
+.question {
+	display: block;
+}
+
+#qna:hover .answer {
+	display: block;
+}
+
+#qna:hover .question {
+	display: none;
+}
+
+#qna:hover {
+	background-color: #57999f;
+	color: white;
+}
