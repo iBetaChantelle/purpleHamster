@@ -1,0 +1,166 @@
+body {
+    background-color: #ffffe6; 
+    background-image: url("");
+}
+
+section#style1 {
+    color: white;
+    background-color:#034b25;
+}
+section#style2 {
+    color: white;
+    background-color:#761429;
+}
+
+header,footer {
+    border:0px solid grey;
+    margin-left:-10px;
+    margin-right:-6px;
+    margin-top:-10px;
+    margin-bottom:0px;
+    padding:20px;
+    color:white;background-color:#761429;
+}
+
+div#centerContent {
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     width: 1000px;
+     top: 5px;
+}
+
+article {
+    border:2px solid grey;
+    margin:5px;margin-bottom:15px;padding:8px;
+    background-color:white;
+    color: black;
+}
+
+footer {
+    position:fixed;
+    bottom:0; 
+    width:100%;
+    height: 40px
+}
+
+section {
+    border-radius: 10px;
+    margin:5px;
+    margin-bottom:15px;
+    padding:8px;
+}
+
+
+
+nav ul  {
+    align: center;
+    margin:-3px; 
+    padding:8px;
+    font-size: 18px;
+    margin-bottom:15px;
+}
+
+nav ul li {
+    color: #761429;
+    padding: 10px;
+    display:inline; 
+    margin:-3px;
+
+}
+nav ul li:hover { 
+    border-bottom-left-radius: 6px; 
+    border-bottom-right-radius: 6px;    
+    background-color: #761429;
+    color: white;
+
+
+}
+div#box {
+    position: fixed;
+    right: 10px;
+    bottom:100px;
+    padding: 8px;
+    z-index: 5;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+h2 {
+    text-align:center;
+}
+
+#art-3,#art-1,#art-4,#art-5,#art-6,#art-7,#art-8, #art-9{
+    background-size: cover;
+}
+.art-2{
+    background-color: transparent;
+    background-size: auto;
+    border: 0px;
+}
+
+#art-1{
+    background-image: url("http://i.giphy.com/3orifgfvIJx30q2EHC.gif");
+    color: rgba(0, 0, 0, 0.0);
+}
+#art-2{
+    background-image: url("https://dwellingintheword.files.wordpress.com/2009/11/17-animated_jesus_wine_bread2.gif");
+    color: rgba(0, 0, 0, 0.0);
+}
+#art-3{
+    background-image: url("http://i.giphy.com/3o6MbhuEgj5qDR8A9i.gif");
+    color: rgba(0, 0, 0, 0.0);
+}
+
+#art-4{
+    background-image: url("http://i.giphy.com/101kC6OJncUhi0.gif");
+    color: rgba(0, 0, 0, 0.0);
+}
+#art-5{
+    background-image: url("http://i.giphy.com/3o6MbqbrUBb0Qo7mqk.gif");
+    color: rgba(0, 0, 0, 0.0);
+}
+#art-6{
+    background-image: url("http://i.giphy.com/jyQYdCoDElFyE.gif");
+    background-position: bottom;
+    color: rgba(0, 0, 0, 0.0);
+    div#map {opacity: 0.0;};
+}
+#art-7{
+    background-image: url("");
+    color: rgba(0, 0, 0, 0.0);
+}
+#art-8{
+    background-image: url("http://i.giphy.com/DfJ768dkSqPRe.gif");
+    color: rgba(0, 0, 0, 0.0);
+}
+#art-9{
+    background-image: url("http://i.giphy.com/SXWaO3PeBkYog.gif");
+    color: rgba(0, 0, 0, 0.0);
+}
+#art-3:hover,#art-1:hover,#art-2:hover,#art-4:hover,#art-5:hover,#art-6:hover,#art-7:hover,#art-8:hover, #art-9:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    img.visible: true;
+
+}
+.map {
+    opacity: 0.0;
+}
+#art-6:hover .map{
+    opacity: 1.0;
+}
+
+#qna{
+	width: 450px;
+	height: 50px;
+	float: left;
+	position: relative;
+}
